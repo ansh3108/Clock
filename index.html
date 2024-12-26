@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital clock with format switcher</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
-      rel="stylesheet"
-    />  
-    <link rel="stylesheet" href="style.css">
+    <title>Battle-Winning Digital Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="clock" id="clock">00:00:00</div>
-    <button class="swithcer" id="switcher">Switch to 12-hour Format</button>
+<body class="dark">
+    <div class="theme-toggle" id="theme-toggle">
+        <div class="icon sun">☀️</div>
+        <div class="icon moon">🌙</div>
+    </div>
+    <div class="container">
+        <div class="clock-container">
+            <div class="clock" id="clock">00:00:00</div>
+            <div class="date" id="date">Loading Date...</div>
+        </div>
+        <button class="switcher" id="switcher">Switch to 12-Hour Format</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
