@@ -1,3 +1,4 @@
+
 let is24HourFormat = true;
 const clockElement = document.getElementById("clock");
 const dateElement = document.getElementById("date");
